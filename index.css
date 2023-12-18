@@ -1,0 +1,472 @@
+*{
+     
+    font-family:   Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+     
+}
+ 
+.page1{
+    width:  100%;
+     height: 140vh;
+    background-image: url('bg4.jpg');
+    background-size: cover;
+     background-repeat: no-repeat;
+     position: absolute;
+     top: 0px;
+    background-color: rgb(0, 0, 0);
+      
+}
+
+.navbar{
+     width: 100%;
+     height: 60px;
+     position: relative;
+     display: flex;
+     justify-content: space-between;
+
+}
+.navbar #logo{
+    
+    height: 90px;
+    
+    margin-left: 30px;
+    margin-top: 6px;
+}
+#lang{
+    margin-top:38px ;
+    background-color: black;
+    color: white;
+    height: 35px;
+    width: 120px;
+    border: 0.3px solid white;
+    border-radius:5px ;
+    position: relative;
+     margin-left: 500px;
+}
+ #signin{
+    border: 1px solid black;
+    background-color: red;
+    color: white;
+    height: 38px;
+    margin-top: 36px;
+    border-radius: 5px;
+    width: 80px;
+    font-weight:700;
+    font-size: 18px;
+    position: relative;
+    right: 20px;
+    cursor: pointer;
+      
+ }
+ /* .page2{
+    background-color: aqua;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 100vh;
+ } */
+  
+  #text1{
+    color: white;
+    font-size:40px;
+    font-weight: 900;
+    width: 800px;
+     height: 80px;
+     text-align: center;
+    margin-top: 200px;
+    margin-left: 95px;
+  }
+  #text2{
+    color: rgb(255, 255, 255);
+    margin: 16px 0px 0px;
+    font-size: 27px;
+   margin-left: 300px;
+    margin-top:50px ;
+    position: absolute;
+    font-weight: 500;
+    
+  }
+  #text3{
+    color: white;
+    margin-top: 110px;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+  }
+  #text3-clone{
+   color: white;
+   margin-top: 50px;
+   font-size: 20px;
+   font-weight: 400;
+   text-align: center;
+ }
+ #gmail{
+    background-color: rgb(49, 49, 49);
+    width: 380px;
+    height: 50px;
+    border: 1px solid rgb(49, 49, 49);
+    border-radius: 3px;
+     font-size: 15px;
+     font-weight: 500;
+ }
+ #getstarted{
+    margin-left: 10px;
+    height: 50px;
+    width: 170px;
+    color: white;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+ }
+ #getstarted:hover{
+    background-color: rgb(189, 13, 13);
+    border: 1px solid rgb(189,13,13);
+ }
+ #form2{
+   margin-top: 20px;
+   margin-left: 180px;
+ }
+ form{
+    margin-top: 20px;
+    margin-left: 180px;
+ }
+ 
+ .page2{
+    margin-top: 141vh;
+    height:100vh ;
+    width: 100%;
+    background-color:  rgb(0, 0, 0);
+}
+#p1{
+    color:#fff;
+    margin-left:25px;
+    
+    font-size: 50px;
+    font-weight: 600;
+    padding-top: 160px;
+}
+#p2{
+    color:#fff;
+    margin-left: 25px;
+    font-size: 27px;
+    font-weight: 400;
+    width: 500px;
+    margin-top: 20px;
+}
+#image1{
+    height: 270px;
+     position: absolute;
+     top: 170vh; 
+     right: 15px;
+}
+.page3{
+     height:100vh;
+     width: 100%;
+     background-color:  rgb(0, 0, 0);
+     margin-top: 3px;
+}
+#p3{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-weight: 700;
+    padding-left: 450px;
+    padding-top: 100px;
+    width: 400px;
+}
+ #p4{
+    color:rgb(255, 255, 255);
+    font-size: 27px;
+    font-weight: 400;
+    padding-left: 450px;
+    width: 500px;
+ }
+ #image2{
+    height: 280px;
+    position: absolute;
+    top: 260vh;
+    left: 80px;
+ }
+ #p5{
+    font-size:50px ;
+    font-weight: 700;
+    color: #fff;
+    padding-top: 170px;
+    padding-left: 25px;
+ }
+ #p6{
+    color:#fff;
+    font-size: 27px;
+    font-weight: 400;
+    width: 500px;
+    padding-left:25px ;
+ }
+ #image3{
+    height: 260px;
+    position: absolute;
+    top: 365vh;
+    right:40px;
+ }
+ #p7{
+    color:#fff;
+    font-size: 50px;
+    font-weight: 700;
+    padding-top: 120px;
+    padding-left: 460px;
+ }
+ #p8{
+    color:#fff;
+    font-size: 27px;
+    font-weight: 400;
+    width: 480px;
+    padding-left: 460px;
+    
+
+ }
+ #image4{
+    height: 270px;
+    position: absolute;
+    top: 465vh;
+    left:40px;
+ }
+ .page6{
+   height:200vh;
+   width: 100%;
+   background-color:  rgb(0, 0, 0);
+   margin-top: 3px;
+}
+ #p9{
+   color:#fff;
+   font-size: 50px;
+   font-weight: 700;
+   text-align: center;
+   padding-top:70px;
+ }
+ .faq-button {
+   margin-top: 10px;
+   margin-left: 40px;
+   width: 880px;
+   height: auto;
+   background-color: rgb(49, 49, 49);
+   color: white;
+   font-size: 27px;
+   font-weight: 400;
+   text-align: left;
+   padding: 20px;
+   cursor: pointer;
+ }
+
+ .faq-button:hover {
+   background-color: rgb(49,49,49);
+   transition: 0.2s;
+ }
+
+ .answer-container {
+   border-top: 1px solid rgb(0, 0, 0);
+   display: none;
+   margin-top: 10px;
+   margin-left: 10px;
+   width: 800px;
+   height: auto;
+   background-color: rgb(49, 49, 49);
+   color: white;
+   font-size: 22px;
+   font-weight: 350;
+   text-align: left;
+   padding: 10px;
+ }
+
+ .close-answer {
+   cursor: pointer;
+   color: #fff;
+   font-size: 18px;
+   font-weight: 700;
+   text-align: right;
+ }
+ /* #Q1{
+   margin-top: 20px;
+   margin-left: 30px;
+   width: 880px;
+   height: 85px;
+   background-color: rgb(49, 49, 49);
+   color: white;
+   font-size: 27px;
+   font-weight: 400;
+   text-align: left;
+   padding-left: 20px;
+   cursor: pointer;
+ }
+ #Q1:hover{
+   background-color:rgb(65, 65, 65) ;
+     transition:0.2s;
+ }
+ #Q2{
+   cursor: pointer;
+   margin-top: 20px;
+   margin-left: 30px;
+   width: 880px;
+   height: 85px;
+   background-color: rgb(49, 49, 49);
+   color: white;
+   font-size: 27px;
+   font-weight: 400;
+   text-align: left;
+   padding-left: 20px;
+ }
+ #Q2:hover{
+   background-color:rgb(65, 65, 65) ;
+   transition:0.2s;
+ }
+ #Q3{
+   margin-top: 20px;
+   margin-left: 30px;
+   width: 880px;
+   height: 85px;
+   background-color: rgb(49, 49, 49);
+   color: white;
+   font-size: 27px;
+   font-weight: 400;
+   text-align: left;
+   padding-left: 20px;
+   cursor: pointer;
+ }
+ #Q3:hover{
+   background-color:rgb(65, 65, 65) ;
+   transition:0.2s;
+ }
+ #Q4{
+   margin-top: 20px;
+   margin-left: 30px;
+   width: 880px;
+   height: 85px;
+   background-color: rgb(49, 49, 49);
+   color: white;
+   font-size: 27px;
+   font-weight: 400;
+   text-align: left;
+   padding-left: 20px;
+   cursor: pointer;
+ }
+ #Q4:hover{
+   background-color:rgb(65, 65, 65) ;
+   transition:0.2s;
+ }
+ #Q5{
+   margin-top: 20px;
+   margin-left: 30px;
+   width: 880px;
+   height: 85px;
+   background-color: rgb(49, 49, 49);
+   color: white;
+   font-size: 27px;
+   font-weight: 400;
+   text-align: left;
+   padding-left: 20px;
+   cursor: pointer;
+ }
+ #Q5:hover{
+   background-color:rgb(65, 65, 65) ;
+   transition:0.2s;
+ }
+ #Q6{
+   margin-top: 20px;
+   margin-left: 30px;
+   width: 880px;
+   height: 85px;
+   background-color: rgb(49, 49, 49);
+   color: white;
+   font-size: 27px;
+   font-weight: 400;
+   text-align: left;
+   padding-left: 20px;
+   cursor: pointer;
+ }
+ #Q6:hover{
+   background-color:rgb(65, 65, 65) ;
+   transition:0.2s;
+    
+ } */
+ .page7{
+   height:90vh;
+   width: 100%;
+   background-color:  rgb(0, 0, 0);
+   margin-top: 3px;
+}
+a{
+   text-decoration: dotted underline;
+   cursor: pointer;
+}
+ 
+#l1{
+   color: #fff;
+   padding-top: 70px;
+   padding-left: 50px;
+}
+.row1{
+    
+   color: #fff;
+   display: flex;
+    
+}
+.row1 a{
+   margin-left: 150px;
+}
+.row2{
+    
+   color: #fff;
+   display: flex;
+    
+}
+.row2 a{
+   margin-left: 51px;
+}
+.row3{
+    
+   color: #fff;
+   display: flex;
+    
+}
+.row3 a{
+   margin-left: 150px;
+}
+.row4{
+    
+   color: #fff;
+   display: flex;
+    
+}
+.row4 a{
+   margin-left: 150px;
+}
+#language{
+   margin-top: 50px;
+   position: absolute;
+   left: 50px;
+    
+   background-color: black;
+   color: white;
+   height: 35px;
+   width: 120px;
+   border: 0.3px solid white;
+   border-radius:5px ;
+   
+    
+}
+#theEnd{
+   margin-top: 60px;
+   color: #fff;
+   position: absolute;
+   left: 50px;
+   margin-top: 100px;
+}
+#copy{
+   margin-top: 60px;
+   color: #fff;
+   position: absolute;
+   right: 50px;
+   margin-top: 100px;
+}
+ 
